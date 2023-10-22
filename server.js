@@ -47,9 +47,9 @@ app.all('/', (req, res) => {
       success: true,
       status: 'success',
       message: `Welcome to ${process.env.NAME} Backend`,
-      version: '0.0.0',
-      developer: 'https://github.com/********/',
-      health: '100% we woke',
+      version: '1.0.0',
+      developer: 'https://github.com/koimasshiro/BlogAPI_AltSchool',
+      health: '100% Server is Live',
       server_time: `${new Date()}`,
       data: { ...req.body, ...req.params, ...req.query } // Incase Users Wanna Test Req Body {optional}
     });
