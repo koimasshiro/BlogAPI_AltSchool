@@ -6,7 +6,7 @@
 /**
  * parse dotenv
  */
-require('dotenv').config();
+require('dotenv').config('../.env');
 const { connectDB } = require('../database');
 var app = require('../server');
 var debug = require('debug')('boilerplate:server');
